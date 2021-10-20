@@ -103,7 +103,7 @@ void loop() {
    // imprime el valir de la unidad
   lcd.print(unidades);
   Serial.println(uartESPRXbtn);
-  Serial1.println(55);
+  Serial1.println(voltaje1);
 }
 
 //*****************************************************************************
